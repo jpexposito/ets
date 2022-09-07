@@ -1,6 +1,5 @@
 # Elaboración de diagramas de comportamiento
 
-
 ## Introducción
 
 En esta Unidad aprenderemos a:
@@ -20,8 +19,6 @@ Los más utilizados son:
 - Diagramas de secuencia (es un diagrama de interacción)
 - Diagramas de estados
 - Diagramas de actividades
-
-
 
 ## Diagramas de casos de uso
 

@@ -1,6 +1,7 @@
 
 # Entornos integrados de desarrollo
 
+<img align="center" src="img/ide.webp" alt="Entornos de desarrollo integrado">
 ## Introducción
 
 En esta Unidad aprenderemos a:
