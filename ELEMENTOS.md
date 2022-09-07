@@ -68,7 +68,7 @@ En **lenguajes interpretados** no exite código objeto, ni binario. Solo código
 
 ### Desarrollo de software
 
-<img align="center" src="../img/pasos-desarrollo-software.png" alt="Fases principales del desarrollo de software">
+<img align="center" src="img/pasos-desarrollo-software.png" alt="Fases principales del desarrollo de software">
 
 
 #### ___Fases principales___
@@ -168,11 +168,11 @@ El trabajo con una metodología de desarrollo de software permite reducir el niv
   - Modelo en espiral (iterativos)
   - Metodologías ágiles (adaptativos)
 
-<img align="center" src="../img/metodologias-desarrollo-software.jpeg" alt="Metodologías de desarrollo">
+<img align="center" src="img/metodologias-desarrollo-software.jpeg" alt="Metodologías de desarrollo">
 
 ### Modelo en cascada (I)
 
-<img align="center" src="../img/metodologia-cascada.png" alt="Metodologia cascada">
+<img align="center" src="img/metodologia-cascada.png" alt="Metodologia cascada">
 
 
 ### Modelo en cascada (II)
@@ -187,7 +187,7 @@ El trabajo con una metodología de desarrollo de software permite reducir el niv
 
 ### Modelo en V (I)
 
-<img align="center" src="../img/metodologia-v.png" alt="Metodologia en v">
+<img align="center" src="img/metodologia-v.png" alt="Metodologia en v">
 
 ### Modelo en V (II)
 
@@ -205,7 +205,7 @@ El trabajo con una metodología de desarrollo de software permite reducir el niv
   - por no existir experiencia previa.
   - por omisión o falta de concreción del usuario/cliente.
 
-<img align="center" src="../img/metodologia-prototipo.jpeg" alt="Modelo de construcción de prototipos">
+<img align="center" src="img/metodologia-prototipo.jpeg" alt="Modelo de construcción de prototipos">
 
 
 ### Prototipos (II)
@@ -231,7 +231,7 @@ El trabajo con una metodología de desarrollo de software permite reducir el niv
 - Desarrollado por Boehm en 1988.
 - La actividad de ___ingeniería___ corresponde a las fases de los modelos clásicos: análisis, diseño, codificación, ...
 
-<img align="center" src="../img/metodologia-espiral.png" alt="Modelo en espiral">
+<img align="center" src="img/metodologia-espiral.png" alt="Modelo en espiral">
 
 
 ### Modelo en espiral (II)
@@ -275,7 +275,7 @@ El trabajo con una metodología de desarrollo de software permite reducir el niv
 
 Pizarra kanban
 
-<img align="center" src="../img/metodologia-kanban.png" alt="Pizarra kanban">
+<img align="center" src="img/metodologia-kanban.png" alt="Pizarra kanban">
 
 
 ##### Algunas Herramientas Online
@@ -313,7 +313,7 @@ Trello fue vendida por la nada despreciable suma de 425 millones de dólares. La
 
 #### __Scrum (II)__
 
-<img align="center" src="../img/metodologia-scrum.png" alt="Proceso SCRUM">
+<img align="center" src="img/metodologia-scrum.png" alt="Proceso SCRUM">
 
 
 #### __XP (Programación extrema) (I)__
@@ -341,7 +341,7 @@ __Características__
 - Estándares de codificación
 - 40 horas semanales
 
-<img align="center" src="../img/metodologia-xp.jpeg" alt="Proceso SCRUM">
+<img align="center" src="img/metodologia-xp.jpeg" alt="Proceso SCRUM">
 
 
 
