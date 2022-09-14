@@ -4,7 +4,7 @@
 
 Resulta graciosa la pregunta, pero tal vez, aún  más la respuesta:
 _Un IDE es un conjunto de herramientas e instalaciones que los programadores necesitamos durante el desarrollo y diseño de software._
-Esta definición es la que solemos encontrar en numerosas Web´s, dando por supuesto que los IDE´s son capaces de albergar instalaciones, como por ejemplo de servidores Web, o similar. Dicho esto, y no queriendo entrar en el primer post, en una guerra de definiciones, definicia:
+Esta definición es la que solemos encontrar en numerosas Web´s, dando por supuesto que los IDE´s son capaces de albergar instalaciones, como por ejemplo de servidores Web, o similar. Dicho esto, y no queriendo entrar en el primer post, en una guerra de definiciones, definiría:
 
 El conjunto de herramientas e instalaciones que los programadores necesitamos durante el desarrollo y diseño de software, como nuestro entorno de desarrollo, y no el IDE.
 Por ello, podemos definir a un IDE como:
@@ -26,7 +26,7 @@ Con esta definición coincido bastante más, podríamos citar algunos de ellos:
 Además de ello, debemos de tener en cuenta una herramienta muy popular a la hora de desarrollo como son los editores de código ligero.
 
 Los editores de código ligeros no tienen tantas características como los IDE, pero son más rápidos y simples.
-La diferencia principal con el IDE es que el IDE trabaja con proyectos enteros, mientras que el editor ligero no, solo para archivos concretos, por esto lo hace más rápido.
+_La diferencia principal con el IDE es que el IDE trabaja con proyectos enteros, mientras que el editor ligero no, solo para archivos concretos, por esto lo hace más rápido._
 
 Aunque, en realidad…
 
@@ -34,9 +34,7 @@ Tenemos tantos plugins para estos editores que se pueden llegar a convertir en I
 
 Algunos de estos editores son: Atom, Sublime Text, Brackets, Notepad++, etc.
 
-A continuación vamos a realizar una lista de los más utilizados, teniendo una fuente externa como puede ser GitHub, en enero de 2021.
-
-Fuente: github
+A continuación vamos a realizar una lista de los más utilizados, teniendo una fuente externa como puede ser GitHub, en enero de 2022.(https://pypl.github.io/IDE.html)
 
 Como resulta evidente existen numerosas alternativas a la hora de desarrollar, además que cada maestrillo tiene su librillo, o dicho de otro modo, cada desarrollador tiene sus propios gustos o prioridades.
 
@@ -66,10 +64,10 @@ Espero que el post haya sido del agrado, sabiendo que todo es muy mejorable, y q
 Sed buenos y disfrutad programando.
 
 Referencias:
-https://www.redhat.com/es/topics/middleware/what-is-ide
-https://pypl.github.io/IDE.html
-https://www.eclipse.org/jetty/
-https://geekflare.com/es/ide-for-programmer/
-https://www.kikopalomares.com/blog/que-es-un-ide-de-programacion-y-un-editor-de-codigo-ligero
+- https://www.redhat.com/es/topics/middleware/what-is-ide
+- https://pypl.github.io/IDE.html
+- https://www.eclipse.org/jetty/
+- https://geekflare.com/es/ide-for-programmer/
+- https://www.kikopalomares.com/blog/que-es-un-ide-de-programacion-y-un-editor-de-codigo-ligero
 
 </div>
