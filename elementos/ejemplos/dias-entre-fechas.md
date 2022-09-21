@@ -10,7 +10,7 @@
 ## Introducción
 
   Una empresa quiere crear una aplicación para el calcular los días transcurridos entre dos fecha y hacer la vida más sencilla.
-
+<!--
   <details>
     <summary>PULSA PARA VER UNA APROXIMACIÓN A LA SOLUCIÓN:</summary>
 
@@ -36,7 +36,7 @@
 
   </details>
 
-
+-->
 
 
 
