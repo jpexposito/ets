@@ -225,7 +225,7 @@ git branch -d v0.2
 git config --global alias.list 'log --oneline --decorate --graph --all'
 git list
 ~~~
-
+<!--
 ## Cuenta de GitHub
 
 1. Poner una foto en vuestro perfil de GitHub.
@@ -286,5 +286,5 @@ de 2 organizaciones de las que no seais ni administradores ni desarrolladores.
 ## Gestionar Pull-requests
 
 1. Aceptar los pull-request que lleguen a los repositorios de tu organización.
-
+-->
 </div>
