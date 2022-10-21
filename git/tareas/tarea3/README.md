@@ -9,9 +9,6 @@
 
 Crear un repositorio en vuestro GitHub llamado **my-proyecto-millonario**.
 
-
-![Crear un repositorio](../slides/img/git/github-new-repo.png)
-
 Clonar vuestro repositio en local.
 
 ~~~
