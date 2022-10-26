@@ -66,8 +66,8 @@ Realizar los cambios oportunos para que tanto el archivo como
 la carpeta sean ignorados por git.
 
 ~~~
-echo "privado.txt" > .gitignore
-echo "/privada" > .gitignore
+echo "privado.txt" >> .gitignore
+echo "/privada" >> .gitignore
 git add .
 git commit -m "añadido fichero .gitignore"
 ~~~
