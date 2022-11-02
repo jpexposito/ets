@@ -113,12 +113,10 @@ Eso es todo. La última versión de Maven ahora está instalada en su sistema Ub
 Conclusión
 Le mostramos cómo instalar Apache Maven en Ubuntu. Ahora debería visitar la página de documentación oficial de Apache Maven y aprender cómo empezar con Maven.
 
-
-Realiza un informe indicando los pasos que has seguido para la instalación de OpenJdk y donde se muestre la versión de java que esta corriendo en el sistema, la cual debe indicar la versión 8.
+Realiza un informe en markdown en el repositorio que debes de crear para la tarea indicando los pasos que has seguido y donde se muestre la versión de java que esta corriendo en el sistema, la cual debe indicar la versión 8.
 Además el informe debe de contener:
- - Titulo de la tarea.
- - Nombre y Apellidos.
  - Indice
  - Pasos descritos.
  - Carecer faltas de ortografía.
  - Capturas de pantalla con los resultados obtenidos.
+

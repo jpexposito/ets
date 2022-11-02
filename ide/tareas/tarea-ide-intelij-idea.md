@@ -45,14 +45,12 @@ sudo snap install intellij-idea-community --classic
 
 ## Realización del informe
 
-Realiza un informe indicando los pasos que has seguido para la instalación de NetBeans 8 y donde se muestre cada uno de los pasos detallados, pasos y problemas encontrados.
+Realiza un informe en markdown en el repositorio que debes de crear para la tarea indicando los pasos que has seguido.
 Además el informe debe de contener:
- - Titulo de la tarea.
- - Nombre y Apellidos.
- - Indice.
+ - Indice
  - Pasos descritos.
  - Carecer faltas de ortografía.
- - Capturas de pantalla con los resultados. obtenidos.
- - Incluye el enlace de tu cuenta _GitHub_ en el detalle de la tarea.
+ - Capturas de pantalla con los resultados obtenidos.
+
 
 </div>

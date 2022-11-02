@@ -77,7 +77,7 @@ sudo update-alternatives --config java
 
 ```console
 # Java version
-JAVA_HOME=/usr/lib/jvm/_____openJdk_____
+JAVA_HOME=/usr/lib/jvm/(SELECCIONA UN PATH DE LA VERSION QUE DESEAS QUE SE EJECUTE)
 PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
 export JAVA_HOME
 export JRE_HOME
@@ -101,10 +101,8 @@ Finalmente, cargue las variables de entorno usando el comando de source
 source /etc/profile.d/java.sh
 ```
 
-Realiza un informe indicando los pasos que has seguido para la instalación de OpenJdk y donde se muestre la versión de java que esta corriendo en el sistema, la cual debe indicar la versión 8.
+Realiza un informe en markdown en el repositorio que debes de crear para la tarea indicando los pasos que has seguido.
 Además el informe debe de contener:
- - Titulo de la tarea.
- - Nombre y Apellidos.
  - Indice
  - Pasos descritos.
  - Carecer faltas de ortografía.
