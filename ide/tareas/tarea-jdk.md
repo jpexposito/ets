@@ -37,11 +37,11 @@ Para instalar Ubuntu Java Open JDK ("la que utilizaremos en 1º").
    ```
    sudo apt install openjdk-11-jdk
    ```
-    - 9
+    - 13
    ```
    sudo apt install openjdk-13-jdk
    ```
-    - 13
+    - 8
    ```
    sudo apt install openjdk-8-jdk
    ```
