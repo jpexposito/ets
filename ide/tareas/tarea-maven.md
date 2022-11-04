@@ -30,7 +30,7 @@
  mvn -version
 ```
 
- La salida debería verse así:
+ La salida debería verse de forma similar:
 
 ```
 Apache Maven 3.6.3
@@ -44,13 +44,13 @@ Apache Maven 3.6.3
 
 ### Instalar una versión concreta de Apache Maven
 
- En el momento de escribir este artículo, es la última versión de Apache Maven 3.8.2. Antes de continuar con el siguiente paso, visite la página de descarga de Maven para ver si hay una versión más nueva disponible.
+ En el momento de escribir este artículo, es la última versión de Apache Maven 3.8.6. Antes de continuar con el siguiente paso, visite la página de descarga de Maven para ver si hay una versión más nueva disponible.
 
 
  Descargue Apache Maven en el directorio /tmp:
 
 ```
-wget https://www.apache.org/dist/maven/maven-3/3.8.2/binaries/apache-maven-3.8.2-bin.tar.gz -P /tmp
+wget https://www.apache.org/dist/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz -P /tmp
 ```
 
  Una vez que se complete la descarga, extraiga el archivo en el directorio /opt
@@ -60,7 +60,7 @@ sudo tar xf /tmp/apache-maven-*.tar.gz -C /opt
  Para tener más control sobre las versiones y actualizaciones de Maven, que a crear un maven enlace simbólico que apunte al directorio de instalación de Maven:
 
 ```
-sudo ln -s /opt/apache-maven-3.8.2 /opt/maven
+sudo ln -s /opt/apache-maven-3.8.6 /opt/maven
 ```
  Cuando se lanza una nueva versión, puede actualizar su instalación de Maven desempaquetando la última versión y cambiando el enlace simbólico para señalarla.
 
@@ -101,7 +101,7 @@ mvn -version
 Debería ver algo similar a lo siguiente:
 
 ```
-Apache Maven 3.8.2 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Apache Maven 3.8.6 (cecedd343002696d0abb50b32b541b8a6ba2883f)
  Maven home: /opt/maven
  Java version: 11.0.7, vendor: Ubuntu, runtime: /usr/lib/jvm/java-11-openjdk-amd64
  Default locale: en_US, platform encoding: UTF-8
