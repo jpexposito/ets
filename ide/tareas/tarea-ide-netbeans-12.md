@@ -41,6 +41,10 @@ sudo snap install netbeans --classic
 
   Ahora que Netbeans está instalado en su sistema Ubuntu, puede iniciarlo escribiendo netbeans en su terminal o haciendo clic en el icono de Netbeans ( Activities -> Netbeans ).
 
+<div align="center">
+  <img src="https://liukin.es/wp-content/uploads/2021/10/Como-instalar-Netbeans-en-Ubuntu-Linux.png" width="250px">
+</div>
+
   Una vez que se cargue el IDE de Netbeans, se le presentará la página de inicio.
 
 # Eliminar Netbeans
@@ -53,13 +57,34 @@ __No realices este paso, es para que conozcas como se elimina__.
 sudo snap remove netbeans
 ```
 
+## Instalación a través wget (Cualquier distribución Linux)
+
+Teniendo en cuenta que has completado la instalación de __java__ en la tarea anterior, puedes realizar la instalación de Netbeans 12.5 a través de __wget__. De esta forma se puede realizar la instalación en ___cualquier distribución de linux___.
+
+Los pasos son los siguientes:
+- Abre un navegador, navegue hasta la página de descarga de NetBeans IDE y descargue el último script de instalación de NetBeans IDE ( Apache-NetBeans-12.0-bin-linux-x64.sh ) para su distribución de Linux instalada.
+
+  Alternativamente, también puede descargar el script de instalación de NetBeans IDE en su sistema a través de la utilidad wget, con el siguiente código:
+  ```console
+  wget -c  https://archive.apache.org/dist/netbeans/netbeans/12.5/Apache-NetBeans-12.5-bin-linux-x64.sh
+  ```
+- Una vez completada la descarga, navegue hasta el directorio donde se descargó el instalador de NetBeans IDE y ejecute el siguiente comando para que el script del instalador sea ejecutable y comience a instalarlo.
+  Otorgamos permisos de ejecución:
+  ```code
+  chmod +x Apache-NetBeans-12.5-bin-linux-x64.sh 
+  ```
+  Ejecutamos el script de instalación
+  ```code
+  ./Apache-NetBeans-12.5-bin-linux-x64.sh
+  ```
+- Después de ejecutar el script de instalación anterior, la “ Página de bienvenida ” del instalador se deben de seguir los pasos para personalizar la instalación (lenguajes soportados, etc).
 # Realización del informe
 
  Realiza un informe en markdown en el repositorio que debes de crear para la tarea indicando los pasos que has seguido.
 Además el informe debe de contener:
  - Indice
  - Pasos descritos.
- - Carecer faltas de ortografía.
+ - Problemas encontrados.
  - Capturas de pantalla con los resultados obtenidos.
 
 
