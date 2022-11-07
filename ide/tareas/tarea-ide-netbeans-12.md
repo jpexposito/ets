@@ -62,7 +62,7 @@ sudo snap remove netbeans
 Teniendo en cuenta que has completado la instalación de __java__ en la tarea anterior, puedes realizar la instalación de Netbeans 12.5 a través de __wget__. De esta forma se puede realizar la instalación en ___cualquier distribución de linux___.
 
 Los pasos son los siguientes:
-- Abre un navegador, navegue hasta la página de descarga de NetBeans IDE y descargue el último script de instalación de NetBeans IDE ( Apache-NetBeans-12.0-bin-linux-x64.sh ) para su distribución de Linux instalada.
+- Abre un navegador, navegue hasta la página de descarga de NetBeans IDE y descargue el último script de instalación de NetBeans IDE ([ Apache-NetBeans-12.5-bin-linux-x64.sh](https://netbeans.apache.org/download/nb125/nb125.html) ) para su distribución de Linux instalada.
 
   Alternativamente, también puede descargar el script de instalación de NetBeans IDE en su sistema a través de la utilidad wget, con el siguiente código:
   ```console
