@@ -9,7 +9,7 @@
 
 Crear un repositorio en vuestro GitHub llamado **my-proyecto-millonario**.
 
-Clonar vuestro repositio en local.
+Clonar vuestro repositorio en local.
 
 ~~~
 git clone git@github.com:alumno-XXX/my-proyecto-millonario.git
@@ -30,8 +30,8 @@ touch README.md
 
 ## Commit inicial
 
-Añadir al README.md los comanddos utilizados hasta ahora
-y hacer un coomit inicial con el mensaje **commit inicial**.
+Añadir al README.md los comandos utilizados hasta ahora
+y hacer un commit inicial con el mensaje **commit inicial**.
 
 ~~~
 git add .
@@ -46,7 +46,7 @@ Subir los cambios al repositorio remoto.
 git push origin master
 ~~~
 
-> Pregunta: Si has clonado el repostorio es necesirio que parte del comando anterior puedo omitir.Justifica tu respuesta en el fichero **README.md**.
+> Pregunta: ¿Si has clonado el repositorio, que parte del comando anterior podemos omitir? Justifica tu respuesta en el fichero **README.md**.
 
 ## Ignorar archivos
 
@@ -72,7 +72,7 @@ git add .
 git commit -m "añadido fichero .gitignore"
 ~~~
 
-> Preunta: el fichero y el directorio privado debe de subir al repositorio si se encuentra añadido al fichero .gitingnore. **[Si/No]**. Justifica tu respuesta en el fichero **README.md**.
+> Pregunta: ¿El fichero y el directorio privado podrían ser subidos al repositorio si se encuentran añadidos al fichero .gitignore? **[Si/No]**. Justifica tu respuesta en el fichero **README.md**.
 
 ## Añadir fichero 1.txt
 
@@ -84,7 +84,7 @@ git add .
 git commit -m "añadido 1.txt"
 ~~~
 
-> Preunta: Si ejecutado las acciones add y commit, que realiza cada una sobre el/los ficheros. Justifica tu respuesta en el fichero **README.md**.
+> Pregunta: Si has ejecutado las acciones **add** y **commit**, explica que realiza cada una sobre el/los ficheros. Justifica tu respuesta en el fichero **README.md**.
 
 ## Crear el tag v0.1
 
@@ -102,7 +102,7 @@ git tag v0.1
 git push --tag origin master
 ~~~
 
-> Preunta: *¿Qué es un tag sobre un repositorio git, en nuestro caso Github?.* Justifica tu respuesta en el fichero **README.md**.
+> Pregunta: *¿Qué es un tag sobre un repositorio git(en nuestro caso la plataforma Github)?.* Justifica tu respuesta en el fichero **README.md**.
 
 ## Crear una rama v0.2
 
@@ -128,11 +128,11 @@ git add .
 git commit -m "añadido 2.txt"
 ~~~
 
-> Preunta: *Cuando estamos trabajando con ramas, cual es su fin, y sentido en organizaciones pequeñas/medianas/grandes.* Justifica tu respuesta en el fichero **README.md**.
+> Pregunta: *¿Cuando estamos trabajando con ramas, cual es su fin y sentido en organizaciones pequeñas/medianas/grandes?* Justifica tu respuesta en el fichero **README.md**.
 
 ## Crear rama remota v0.2
 
-1. Subir los cambios al reposiorio remoto.
+1. Subir los cambios al repositorio remoto.
 
 ~~~
 git push origin v0.2
@@ -152,7 +152,7 @@ git checkout master
 git merge v0.2 -m "merge v0.2 sin conflictos"
 ~~~
 
-> Preunta: *Se tendrían que producir conflictos en esta acción.* **[Si/No]** Justifica tu respuesta en el fichero **README.md**.
+> Pregunta: *¿Se producirían conflictos trás realizar las acciones anteriores?* **[Si/No]** Justifica tu respuesta en el fichero **README.md**.
 
 ## Merge con conflicto
 
