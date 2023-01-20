@@ -8,7 +8,7 @@
 
 El gobierno de la republica independiente del Puerto dela Cruz, realizar una aplicación para mantener monitorizados a los habitantes frente a una posible pandemia mundial que los mantendría confinados en sus casas.
 
-El gobierno ha creado un sistema que le va a llamar Quietito. Este sistema recibirá una serie de datos en formato JSON de un organismo oficial el cual clasifica a los habitantes entre ___confinado__ y __libre moviemnto__ () transportistas, sanitarios, trabajadores de supermercados y tiendas de alimentos, etc). Además el programa almacena  por cada habitante su domicilio.
+El gobierno ha creado un sistema que le va a llamar Quietito. Este sistema recibirá una serie de datos en formato JSON de un organismo oficial el cual clasifica a los habitantes entre __confinado__ y __libre moviemnto__ (transportistas, sanitarios, trabajadores de supermercados y tiendas de alimentos, etc). Además el programa almacena  por cada habitante su domicilio.
 
 Asimismo, recibirá otro fichero en formato JSON con el nombre de los habitantes y su número de télefono.
 
