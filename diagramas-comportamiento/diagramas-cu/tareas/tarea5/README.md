@@ -40,7 +40,7 @@ Realiza:
 ## Especificación de Casos de Uso:
 
 <div align="center">
-  <img src="https://static3.abc.es/Media/201503/25/39295348--644x362.jpg" />
+  <img src="https://www.pamplonetario.org/imagen_escala_ancho.php?x=570&imagen=imagenes/tecnociencia/apps-para-una-pandemia-402.png" width="300px" />
 </div>
 
 ## Índice
