@@ -28,6 +28,7 @@ Realiza:
 - Identifica los actores.
 - Identifica los __CU__ de cada uno de los actores.
 - Realiza el diagrama de CU.
+- La especificación de CU.
 
 
 <!--  
