@@ -14,14 +14,14 @@ El profesor recibe las actas en blanco de las asignaturas de las que es responsa
  - Añadir o borrar un alumno de un acta.
  - Integrar las actas de varios grupos de una misma asignatura en una sola acta.
  - Otras de las opciones que se le exige a la aplicación, para satisfacer completamente las necesidades del profesor, son las siguientes:
-   - Permitir la consulta de la siguiente información de cualquier alumno seleccionado _DNI, N.° EXPEDIENTE, Lista de asignaturas en las que está matriculado el alumno (Código asignatura-Nombre asignatura)_.
-   - Obtener una estadística de las calificaciones obtenidas por los alumnos en un determinado grupo de una asignatura. En esta estadística se tendrá para cada posible calificación:
-   - Número de personas con esa calificación, Porcentaje sobre los presentados, Porcentaje sobre el total del grupo.
-   - Consultar el porcentaje de personas sobre el total del grupo que se han presentado y el de los que no se han presentado.
-   - Poder visualizar un gráfico indicativo del número de personas que han obtenido una calificación entre 0-0.99, 1-1.99, 2-2.99, 3-3.99, 4-4.99, 5-5.99, 6-6.99, 8-8.99, 9-10; indicándose la nota media obtenida por la clase.
-   - Disponer de una calculadora que permita realizar las operaciones de suma, resta, multiplicación, división. Esta calculadora se activará cuando se vayan a introducir las notas a algún alumno de forma que una vez realizada la operación aritmética, pulsando un botón se vuelque el resultado en la casilla donde se están introduciendo las calificaciones, redondeándose a dos cifras decimales.
-   - Permitir la importación y exportación de la lista de alumnos con sus calificaciones a un formato compatible con MS Excel.
-   - Imprimir las actas y la lista provisional de calificaciones.
+    - Permitir la consulta de la siguiente información de cualquier alumno seleccionado _DNI, N.° EXPEDIENTE, Lista de asignaturas en las que está matriculado el alumno (Código asignatura-Nombre asignatura)_.
+    - Obtener una estadística de las calificaciones obtenidas por los alumnos en un determinado grupo de una asignatura. En esta estadística se tendrá para cada posible calificación:
+    - Número de personas con esa calificación, Porcentaje sobre los presentados, Porcentaje sobre el total del grupo.
+    - Consultar el porcentaje de personas sobre el total del grupo que se han presentado y el de los que no se han presentado.
+ - Poder visualizar un gráfico indicativo del número de personas que han obtenido una calificación entre 0-0.99, 1-1.99, 2-2.99, 3-3.99, 4-4.99, 5-5.99, 6-6.99, 8-8.99, 9-10; indicándose la nota media obtenida por la clase.
+ - Disponer de una calculadora que permita realizar las operaciones de suma, resta, multiplicación, división. Esta calculadora se activará cuando se vayan a introducir las notas a algún alumno de forma que una vez realizada la operación aritmética, pulsando un botón se vuelque el resultado en la casilla donde se están introduciendo las calificaciones, redondeándose a dos cifras decimales.
+ - Permitir la importación y exportación de la lista de alumnos con sus calificaciones a un formato compatible con MS Excel.
+ - Imprimir las actas y la lista provisional de calificaciones.
 
 Finalmente, como una ampliación extra, a la cual sólo podrá acceder quien se
 identifique inicialmente como administrador de la aplicación, se deben permitir:
