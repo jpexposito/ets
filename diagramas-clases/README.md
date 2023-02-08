@@ -87,6 +87,7 @@
     <img src="https://diagramasuml.com/wp-content/uploads/2018/08/Clase8.png" width="350px">
   </div>
 
+
 ##### Tipos de relaciones
 
   Un diagrama de clases incluye los siguientes tipos de relaciones:
