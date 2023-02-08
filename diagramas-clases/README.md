@@ -96,25 +96,23 @@
   - __Dependencia__.
   - __Herencia__.
 
-###### Asociación
+##### Asociación
 
-  Este tipo de relación es el más común y se utiliza para representar dependencia semántica. Se representa con una simple linea continua que une las clases que están incluidas en la asociación.
+Este tipo de relación es el más común y se utiliza para representar dependencia semántica. Se representa con una simple linea continua que une las clases que están incluidas en la asociación.
 
-  _Un ejemplo de asociación podría ser:_ __“Una mascota pertenece a una persona”__.
-
+_Un ejemplo de asociación podría ser:_ __“Una mascota pertenece a una persona”__.
 
   <div align="center">
     <img src="https://diagramasuml.com/wp-content/uploads/2018/08/clases2.png" width="350px">
   </div>
+  
+##### Agregación
 
+Es __una representación jerárquica que indica a un objeto y las partes que componen ese objeto__. Es decir, representa relaciones en las que un objeto es parte de otro, pero aun así debe tener existencia en sí mismo.
 
-##### Agregación
+__Se representa con una línea que tiene un rombo__ en la parte de la clase que es una agregación de la otra clase (es decir, __en la clase que contiene las otras__).
 
-  Es __una representación jerárquica que indica a un objeto y las partes que componen ese objeto__. Es decir, representa relaciones en las que un objeto es parte de otro, pero aun así debe tener existencia en sí mismo.
-
-  __Se representa con una línea que tiene un rombo__ en la parte de la clase que es una agregación de la otra clase (es decir, __en la clase que contiene las otras__).
-
-  Un ejemplo de esta relación podría ser: __“Las mesas están formadas por tablas de madera y tornillos o, dicho de otra manera, los tornillos y las tablas forman parte de una mesa”. Como ves, el tornillo podría formar parte de más objetos, por lo que interesa especialmente su abstracción en otra clase__.
+Un ejemplo de esta relación podría ser: __“Las mesas están formadas por tablas de madera y tornillos o, dicho de otra manera, los tornillos y las tablas forman parte de una mesa”. Como ves, el tornillo podría formar parte de más objetos, por lo que interesa especialmente su abstracción en otra clase__.
 
   <div align="center">
     <img src="https://diagramasuml.com/wp-content/uploads/2018/08/clases3.png" width="200px">
@@ -151,25 +149,25 @@ Un ejemplo de esta relación podría ser la siguiente:
 
 ##### Herencia  
 
-  Otra relación muy común en el diagrama de clases es la herencia. Este tipo de relaciones permiten que una clase (clase hija o subclase) reciba los atributos y métodos de otra clase __(clase padre o superclase)__. Estos atributos y métodos recibidos se suman a los que la clase tiene por sí misma. Se utiliza en relaciones “es un”.
+Otra relación muy común en el diagrama de clases es la herencia. Este tipo de relaciones permiten que una clase (clase hija o subclase) reciba los atributos y métodos de otra clase __(clase padre o superclase)__. Estos atributos y métodos recibidos se suman a los que la clase tiene por sí misma. Se utiliza en relaciones “es un”.
 
-  Un ejemplo de esta relación podría ser la siguiente: Un pez, un perro y un gato son animales.
+Un ejemplo de esta relación podría ser la siguiente: Un pez, un perro y un gato son animales.
 
-  <div align="center">
+ <div align="center">
     <img src="https://diagramasuml.com/wp-content/uploads/2018/08/clases6.png" width="200px">
   </div>
 
-  En este ejemplo, las tres clases ___(Pez, Perro, Gato) podrán utilizar la función respirar, ya que lo heredan de la clase animal, pero solamente la clase Pez podrá nadar, la clase Perro ladrar y la clase Gato maullar___. La clase Animal podría plantearse ser definida abstracta, aunque no es necesario.
+En este ejemplo, las tres clases ___(Pez, Perro, Gato) podrán utilizar la función respirar, ya que lo heredan de la clase animal, pero solamente la clase Pez podrá nadar, la clase Perro ladrar y la clase Gato maullar___. La clase Animal podría plantearse ser definida abstracta, aunque no es necesario.
 
 ##### Interfaces
 
-  Una interfaz es una entidad que declara una serie de atributos, funciones y obligaciones. Es una especie de contrato donde toda instancia asociada a una interfaz debe de implementar los servicios que indica aquella interfaz.
+Una interfaz es una entidad que declara una serie de atributos, funciones y obligaciones. Es una especie de contrato donde toda instancia asociada a una interfaz debe de implementar los servicios que indica aquella interfaz.
 
-  Dado que únicamente son declaraciones no pueden ser instanciadas.
+Dado que únicamente son declaraciones no pueden ser instanciadas.
 
-  Las interfaces se asocian a clases. Una asociación entre una clase y una interfaz representa que esa clase cumple con el contrato que indica la interfaz, es decir, incluye aquellas funciones y atributos que indica la interfaz.
+Las interfaces se asocian a clases. Una asociación entre una clase y una interfaz representa que esa clase cumple con el contrato que indica la interfaz, es decir, incluye aquellas funciones y atributos que indica la interfaz.
 
-  Su representación es similar a las clases, pero indicando arriba la palabra <<interface>>.
+Su representación es similar a las clases, pero indicando arriba la palabra <<interface>>.
 
   <div align="center">
     <img src="https://diagramasuml.com/wp-content/uploads/2018/08/clases15.png" width="150px">
@@ -177,8 +175,8 @@ Un ejemplo de esta relación podría ser la siguiente:
 
 ### Cómo dibujar un diagrama de clases
 
-  Los diagramas de clase van de la mano con el diseño orientado a objetos. Por lo tanto, saber lo básico de este tipo de diseño es una parte clave para poder dibujar diagramas de clase eficaces.
-  Este tipo de diagramas son solicitados cuando se está describiendo la vista estática del sistema o sus funcionalidades. Unos pequeños pasos que puedes utilizar de guía para construir estos diagramas son los siguientes:
+Los diagramas de clase van de la mano con el diseño orientado a objetos. Por lo tanto, saber lo básico de este tipo de diseño es una parte clave para poder dibujar diagramas de clase eficaces.
+Este tipo de diagramas son solicitados cuando se está describiendo la vista estática del sistema o sus funcionalidades. Unos pequeños pasos que puedes utilizar de guía para construir estos diagramas son los siguientes:
   - __Identifica los nombres de las clase__.
   - El __primer paso__ es _identificar los objetos primarios del sistema_. __Las clases suelen corresponder a sustantivos dentro del dominio del problema__.
   - __Distingue las relaciones__.
@@ -188,11 +186,11 @@ Un ejemplo de esta relación podría ser la siguiente:
 
 ### Buenas prácticas en la construcción del diagrama de clases
 
-  Te recomiendo seguir estas indicaciones o consejos, que, aunque no son obligatorios, harán que tus diagramas de clases sean de mayor utilidad:
-  - Los diagramas de clase pueden tender a volverse incoherentes a medida que se expanden y crecen. Es mejor evitar la creación de diagramas grandes y dividirlos en otros más pequeños que se puedan vincular entre sí más adelante.
-  - Usando la notación de clase simple, puedes crear rápidamente una visión general de alto nivel de su sistema. Se puede crear un diagrama detallado por separado según sea necesario, e incluso vincularlo al primero para una referencia fácil.
-  - Cuantas más líneas se superpongan en sus diagramas de clase, más abarrotado se vuelve y, por tanto, más se complica utilizarlo. El lector se confundirá tratando de encontrar el camino. Asegúrate de que no haya dos líneas cruzadas entre sí, a no ser que no haya más remedio.
-  - Usa colores para agrupar módulos comunes. Diferentes colores en diferentes clases ayudan al lector a diferenciar entre los diversos grupos.
+Te recomiendo seguir estas indicaciones o consejos, que, aunque no son obligatorios, harán que tus diagramas de clases sean de mayor utilidad:
+  - Los diagramas de clase pueden tender a volverse incoherentes a medida que se expanden y crecen. Es mejor ___evitar la creación de diagramas grandes y dividirlos en otros más pequeños que se puedan vincular entre sí más adelante___.
+  - ___Usando la notación de clase simple___, puedes crear rápidamente una visión general de alto nivel de su sistema. Se puede crear un diagrama detallado por separado según sea necesario, e incluso vincularlo al primero para una referencia fácil.
+  - ___Cuantas más líneas se superpongan en sus diagramas de clase, más abarrotado se vuelve y, por tanto, más se complica utilizarlo___. _El lector se confundirá tratando de encontrar el camino_. Asegúrate de que no haya dos líneas cruzadas entre sí, a no ser que no haya más remedio.
+  - ___Usa colores para agrupar módulos comunes___. Diferentes colores en diferentes clases ayudan al lector a diferenciar entre los diversos grupos.
 
 ### Ejemplos de diagrama de clases
 
