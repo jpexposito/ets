@@ -1,4 +1,10 @@
+<div align="justify">
+
 # Testing en Python
+
+<div align="center">
+  <img src="https://mattermost.com/wp-content/uploads/2022/04/02_Unit_Testing@2x.webp" with="400px">
+</div>
 
 Dentro de la ingeniería software y la programación en general, el testing es una de las partes más importantes que nos encontraremos en casi cualquier proyecto. De hecho es común dedicar más tiempo a probar que el código funciona correctamente que a escribirlo. A continuación veremos las formas más comunes de testear el código en Python, desde lo más básico a conceptos algo más avanzados.
 
@@ -202,3 +208,5 @@ __Por lo tanto es tan importante escribir buenos tests que sean completos y teng
 
 # Referencias
 - [Documentación Oficial Test Python](https://docs.python.org/es/3.9/library/test.html).
+
+</div>
